@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<link rel="stylesheet" type="text/css" href="headAndFooter.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<meta charset="utf-8">
+	<title>Егор Митин</title>
+</head>
+<body>
+	<header>
+		<div class="logo"></div>
+		<div class="site-name">
+			<h1>Мой персональный говно-сайт</h1>
+		</div>
+		<div class="break"></div>
+
+		<nav class="navigation">
+			<ul class="menu">
+				<li class="menu-pos active"><a href="">Информация</a></li>
+				<li class="menu-pos"><a href="">Настройки</a></li>
+				<li class="menu-pos"><a href="">Портфолио</a></li>
+				<li class="menu-pos"><a href="">Новости</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+			<!-- <aside class="description">
+				<p>Если вы тут <ins>впервые</ins>, то хочу представить вам мой сайт в стиле <em>"Выколите мне глаза"</em>.
+				А если серьёздно, то я развиваю и прокачиваю этот сайт ежедневно <del>(Сколько ему тогда дней? 0?)</del>
+				<b>Никто не ожидал!</b></p>
+			</aside> -->
+
+		<section class="fact">
+			<article class="fact-text">
+
+				<h2>Факт дня</h2>
+				<div class="fact-content"><p>Вы знали что этот сайт ещё в разработке?</p></div>
+			</article>
+
+			<img class="fact-img" src="icons/fact-img.svg" alt="Картинка интересного факта">
+		</section>
+
+		<section class="news">
+			<img class="news-img" src="icons/news-img.svg" alt="Картинка новости">
+
+			<article class="news-text">
+
+				<h2>Новость недели</h2>
+				<p>Новость, прикиньте, а новости придумывать не так уж и просто((((h ggg gggg gggg gggggg gggggggggg gggggggggggg gggggggggg ggggggg gukrn uheliuhgskj uehfkshgeuilg jkshuie</p>
+
+			</article>
+		</section>
+
+		<div class="break"></div>
+
+		<section class="vote">
+			<img class="vote-img" src="icons/vote-img.svg" alt="Картинка голосования">
+
+			<article class="vote-text">
+
+				<h2>Что нового мне дабавить на сайт?</h2>
+
+				<form action="post">
+					<ul class="vote-list">
+						<li class="vote-list-item">
+							<input value="Удоли сайт" name="vote-item" id="answer-1" type="radio">
+							<label for="answer-1">
+								Удоли сайт(Но мы с лукошенко ваш голос не примим)
+							</label>
+						</li>
+						<li class="vote-list-item">
+							<input value="Игры какие-нибуть" name="vote-item" id="answer-2" type="radio">
+							<label for="answer-2">
+								Игры какие-нибуть
+							</label>
+						</li>
+						<li class="vote-list-item">
+							<input value="Ты сначало это доделай" name="vote-item" id="answer-3" type="radio">
+							<label for="answer-3">
+								Ты сначало это доделай
+							</label>
+						</li>
+					</ul>
+					<input class="button" type="submit">
+				</form>
+				<p>Ваше мнение очень важно для вас!</p>
+			</article>
+		</section>
+
+		<div class="break"></div>
+
+		<section class="humor">
+			<h2>Шутка недели</h2>
+			<form action="post">
+				<p class="humor-text">
+					Знаете почему роскомнадзор не забанил мой сайт? <br>
+					Просто даже им на него плевать.
+				</p>
+
+					<div class="break"></div>
+
+					<ul class="humor-list">
+						<li class="vote-list-item">
+							<label>
+								<input value="bad" name="vote-humor-item" type="radio">
+								<span>Не очень</span>
+								<img src="icons/bad.svg" alt="">
+							</label>
+						</li>
+						<li class="vote-list-item">
+							<label>
+								<input value="normal" name="vote-humor-item" type="radio">
+								<span>Нормально</span>
+								<img src="icons/normal.svg" alt="">
+							</label>
+						</li>
+						<li class="vote-list-item">
+							<label>
+								<input value="good" name="vote-humor-item" type="radio">
+								<span>Хвпхвхпаххпв</span>
+								<img src="icons/good.svg" alt="">
+							</label>
+						</li>
+					</ul>
+
+					<div class="break"></div>
+
+					<input class="button" type="submit">
+				</form>
+		</section>
+
+		<div class="break"></div>
+
+		<section class="ideas">
+			<div class="ideas-text">
+				<h2>Предложи свою идею для сайта!</h2>
+				<p>И если она мне понравиться, я вынесу её на обсуждение.</p>
+			</div>
+
+			<form action="post">
+				<div>
+					<input type="text" id="idea" required class="idea-text">
+					<div class="label-box">
+						<label for="idea" class="ideas-input-label">
+							Ваша идея
+						</label>
+					</div>
+				</div>
+				<input class="button" type="submit">
+			</form>
+		</section>
+
+
+	</main>
+
+	<footer>
+		<div class="logo"></div>
+		<nav class="navigation">
+			<p>Контакты:</p>
+			<div class="break"></div>
+			<ul class="contacts">
+				<li class="menu-pos">
+					<a href="vk.com"><img class="vk" src="icons//vk.svg" alt="VK"></a>
+				</li>
+				<li class="menu-pos">
+					<a href="facebook.com"><img class="fb" src="icons//facebook.svg" alt="FaceBook"></a>
+				</li>
+				<li class="menu-pos">
+					<a href=""><img class="tg" src="icons//telegram.svg" alt="telegram"></a>
+				</li>
+				<li class="menu-pos">
+					<a href=""><img class="od" src="icons//odnoklassniki.svg" alt="odnoklassniki"></a>
+				</li>
+			</ul>
+		</nav>
+
+	</footer>
+</body>
+</html>
